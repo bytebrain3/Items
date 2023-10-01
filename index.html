@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/add-to-cart.png" type="image/png">
+
+    <title>Item Reminder</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    
+    <style>
+        #addItems,#get_items,#display,#signout,#input_box{
+            display: none;
+            
+        }
+
+    </style>
+    
+</head>
+
+<body>
+
+<div id="contnair">
+    
+    <div class="googleButton" id="signup">
+  <span class="icon"></span>
+  <button class="text">Log In With Google</button>
+</div>
+
+
+    <button type="submit"  id="signout"><i class="fa fa-sign-out"></i></button>
+ 
+    <img src="/young-man-adding-item-to-cart-8123069-6516433.png" alt="to to list ">
+    <div class="input_box">
+        <input type="text" placeholder="Your Item List" id="get_items">
+        
+        <button type="submit" id="addItems"><i class="fa fa-plus"></i></button>
+    </div>
+
+        <div id="display">
+                <!-- Display data with hidden delete icons -->
+                <ul id="myList">
+                    <!-- Example item with a hidden delete icon -->
+                    <li data-key="unique_key_1">
+                        Item's List
+                        <span class="delete-icon" style="display:none"><i class="fa fa-trash"></i></span>
+                    </li>
+                    
+                    <!-- Add more items as needed -->
+                </ul>
+            </div>
+    
+</div>
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
