@@ -4,14 +4,14 @@ console.log('Hello World!');
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCi6wnCmYU2H4b72G9irSyZR1twQGRSC6o",
-    authDomain: "items-reminder.firebaseapp.com",
-    databaseURL: "https://items-reminder-default-rtdb.firebaseio.com",
-    projectId: "items-reminder",
-    storageBucket: "items-reminder.appspot.com",
-    messagingSenderId: "387833073385",
-    appId: "1:387833073385:web:6bd95a4001d6432a37ea78",
-    measurementId: "G-CWH4WS575H"
+    apiKey: "Your firebase api key",
+    authDomain: "your firebase authdomain",
+    databaseURL: "your firebase databaseurl",
+    projectId: "your firebase project id",
+    storageBucket: "your firebase storage",
+    messagingSenderId: "your firebase project message id",
+    appId: "your firebase app id",
+    measurementId: "your firebase measurementId:"
 };
 // Initialize Firebase with your configuration
 
